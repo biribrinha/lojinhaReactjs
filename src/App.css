@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  background-color: #0f52ba;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  padding: 20px;
+}
+
+.btnCarrinho {
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  background: #fff;
+  border-radius: 8px;
+  display: flex;
+  height: 45px;
+  width: 80px;
+  margin: 30px;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.btnCarrinho:hover {
+  background: #eeeeee;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+
+}
+
+.container{
+  width: 1030px;
+  height: auto;
+}
+.feed {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+.card {
+  border: 1px solid #000000;
+  border-radius: 8px;
+  width: 214px;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+.imageCard{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.imageCard img {
+  width: 120px;
+  height: 160px;
+}
+.headerCard {
+  display: flex;
+}
+.card h1 {
+  font-size: 16px;
+  font-weight: 400;
+}
+.boxPrice {
+  background: #373737;
+  border-radius: 5px;
+  color: #fff;
+  width: 120px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 5px;
+}
+.boxPrice p {
+  font-weight: 700;
+}
+.descricao {
+  font-weight: 300;
+  font-size: 13px;
+  text-align: center;
+}
+
+.footerCard {
+  background: #0f52ba;
+}
+
+.footerCard:hover {
+  background: #0a2f68;
+}
+
+.footerCard a {
+  display: flex;
+  color: #fff;
+  text-decoration: none;
+  justify-content: center;
+}
+
+footer {
+  background-color: #eeeeee;
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+  height: 34px;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  font-size: 12px;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
