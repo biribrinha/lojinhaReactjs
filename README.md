@@ -5,4 +5,3 @@
 * Typescript
 * Reactjs
 * Styled-Components
-* Redux
